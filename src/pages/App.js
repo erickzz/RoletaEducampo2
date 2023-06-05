@@ -7,14 +7,15 @@ import ClickIcon from '../assets/Click_Icon.jpeg';
 import MarcaSebrae from '../assets/marca-sebrae.png';
 import LogoParque from '../assets/Logo_Parque.png';
 import LogoArena from '../assets/Logo_Arena.png';
+import logo_educampo from '../assets/logo_educampo.png';
 
 import { useNavigate } from 'react-router-dom';
 
 const App = () => {
   const navigate = useNavigate();
 
-  const segments = ['Inova 1', 'Inova 2', 'Inova 3'];
-  const segColors = ['#045bbc', '#04949c', '#5c7c2c'];
+  const segments = ['Educampo', 'Gestão', 'Mercado'];
+  const segColors = ['#055bb9', '#5c7b2d', '#04939b'];
   const onFinished = (winner) => {
     //console.log(winner);
     setTimeout(() => {
@@ -33,8 +34,7 @@ const App = () => {
   return (
     <>
       <div className="main_text">
-        <img src={LogoArena} alt="Logo Arena" />
-        {/* <p>Quiz Educampo</p> */}
+        <p>Quiz Educampo</p>
       </div>
 
       <img className="icone-click" src={ClickIcon} alt="Ícone de Clique" />
@@ -53,7 +53,7 @@ const App = () => {
         fontFamily="Arial"
       />
       <div className="left_img">
-        <img src={LogoParque} alt="Logo Parque Científico Tecnológico" />
+        <img src={logo_educampo} alt="Logo Educampo" />
       </div>
       <div className="right_img">
         <img src={MarcaSebrae} alt="Logo Sebrae" />

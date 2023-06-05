@@ -1,553 +1,547 @@
 export const Perguntas = [
   {
-    tema: 'Inova 1',
-    pergunta: 'Qual definição melhor representa uma startup?',
+    tema: 'Educampo',
+    pergunta: 'O que é o Educampo?',
     alternativas: [
       {
-        texto: 'Empresa com modelo de negócio inovador, repetível e escalável',
+        texto:
+          'Plataforma do Sebrae que gera a inteligência essencial para construir capacidades e criar oportunidades para o desenvolvimento do agronegócio.',
+        valor: true,
+      },
+      {
+        texto: 'Consultoria técnica tradicional.',
+        valor: false,
+      },
+      {
+        texto: 'Faculdade de formação de alunos no campo.',
+        valor: false,
+      },
+    ],
+  },
+
+  {
+    tema: 'Educampo',
+    pergunta: 'O Educampo proporciona, exceto:',
+    alternativas: [
+      {
+        texto: 'Resultados sem o desejo e envolvimento do produtor.',
         valor: true,
       },
       {
         texto:
-          'Show de humor executado por apenas um comediante, que se apresenta geralmente em pé',
+          'Informações exclusivas e estratégicas, projeções, cenários e análises integradas.',
         valor: false,
       },
-      { texto: 'Empresa com menos de 100 funcionários', valor: false },
-    ],
-  },
-  {
-    tema: 'Inova 1',
-    pergunta: 'O que é um unicórnio no contexto das startups?',
-    alternativas: [
-      { texto: 'Startup avaliada em US$ 1 bilhão ou mais', valor: true },
-      { texto: 'Startup criada no Vale do Silício', valor: false },
       {
         texto:
-          'Animal mitológico que tem a forma de um cavalo, geralmente branco, com um único chifre em espiral',
+          'Troca de conhecimentos e networking entre produtores e consultores especialistas.',
         valor: false,
       },
     ],
   },
+
   {
-    tema: 'Inova 1',
-    pergunta: 'O que faz um investidor-anjo?',
+    tema: 'Educampo',
+    pergunta: 'Qual é o propósito do Educampo?',
     alternativas: [
       {
         texto:
-          'Investe em uma startup financeiramente e também a apoio com conhecimento',
-        valor: true,
-      },
-      { texto: 'Investidor já falecido', valor: false },
-      { texto: 'Investe e atua no dia a dia de uma startup', valor: false },
-    ],
-  },
-  {
-    tema: 'Inova 1',
-    pergunta: 'Qual é o principal objetivo da inovação?',
-    alternativas: [
-      {
-        texto: 'Criar produtos e serviços mais eficientes e rentáveis',
-        valor: true,
-      },
-      { texto: 'Manter o status quo e evitar mudanças', valor: false },
-      {
-        texto: 'Reduzir a criatividade e a diversidade no mercado',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 1',
-    pergunta: 'O que é um MVP (Minimum Viable Product)?',
-    alternativas: [
-      {
-        texto:
-          'Uma versão básica de um produto lançada no mercado para validar sua viabilidade',
+          'Gerar, organizar e disponibilizar a inteligência essencial para o agronegócio.',
         valor: true,
       },
       {
         texto:
-          'Um produto completo e finalizado, pronto para ser comercializado',
-        valor: false,
-      },
-      {
-        texto: 'Um protótipo experimental usado apenas para fins de pesquisa',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 1',
-    pergunta: 'O que é Bussiness Model Canvas?',
-    alternativas: [
-      { texto: 'Canvas de Modelo de Negócio', valor: true },
-      { texto: 'Personograma', valor: false },
-      { texto: 'Mapa de Empatia', valor: false },
-    ],
-  },
-  {
-    tema: 'Inova 1',
-    pergunta: 'Qual é o papel da prototipagem rápida no processo de inovação?',
-    alternativas: [
-      {
-        texto: 'Testar ideias e conceitos de forma rápida e econômica',
-        valor: true,
-      },
-      {
-        texto: 'Atrasar o processo de inovação e aumentar os custos',
+          'Oferecer consultoria técnica tradicional para os produtores de leite.',
         valor: false,
       },
       {
         texto:
-          'Evitar a experimentação e avançar diretamente para a produção em massa',
+          'Coletar informações técnicas e gerenciais que não agregam valor para o produtor.',
         valor: false,
       },
     ],
   },
+
   {
-    tema: 'Inova 1',
-    pergunta: 'O que significa a sigla IoT?',
-    alternativas: [
-      {
-        texto: 'Internet of Things (Internet das Coisas)',
-        valor: true,
-      },
-      {
-        texto: 'Internet of Thoughts (Internet dos Pensamentos)',
-        valor: false,
-      },
-      {
-        texto: 'Internet of Teams (Internet das Equipes)',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 1',
-    pergunta: 'O que é design thinking?',
+    tema: 'Educampo',
+    pergunta: 'Sobre o Educampo é incorreto afirmar que:',
     alternativas: [
       {
         texto:
-          'Uma abordagem centrada no ser humano para resolver problemas complexos',
+          'Dificulta o planejamento das propriedades pois gera informações pouco relevantes.',
         valor: true,
       },
       {
-        texto: 'Um método para evitar qualquer tipo de pensamento criativo',
+        texto:
+          'Possui banco de dados econômico consistente que permite a geração de análises.',
         valor: false,
       },
       {
         texto:
-          'Uma técnica usada exclusivamente para o design de produtos físicos',
+          'Possibilita a integração e a conexão das propriedades por meio da plataforma.',
         valor: false,
       },
     ],
   },
+
   {
-    tema: 'Inova 1',
+    tema: 'Educampo',
     pergunta:
-      'Qual é o principal benefício da cultura de inovação em uma organização?',
+      'Sobre os consultores especialistas que participam do Educampo é incorreto afirmar que:',
     alternativas: [
       {
-        texto: 'Estimular a criatividade e a geração contínua de novas ideias',
+        texto: 'Não são treinados pela metodologia do Educampo.',
         valor: true,
       },
       {
-        texto: 'Fomentar a resistência à mudança e ao crescimento',
+        texto:
+          'Recebem capacitações contínuas que ampliam a experiência em gestão.',
         valor: false,
       },
       {
-        texto: 'Limitar a diversidade de perspectivas e soluções',
+        texto:
+          'Trocam experiências com outros consultores, produtores e empresas parceiras.',
+        valor: false,
+      },
+    ],
+  },
+
+  {
+    tema: 'Educampo',
+    pergunta: 'Qual perfil de produtores não se encaixa no Educampo?',
+    alternativas: [
+      {
+        texto: 'Que não busca a melhoria de resultados técnicos e econômicos.',
+        valor: true,
+      },
+      {
+        texto:
+          'Possui a necessidade de utilizar a inteligência de dados para evoluir o seu negócio.',
+        valor: false,
+      },
+      {
+        texto: 'Empreendedor e aberto a mudanças.',
+        valor: false,
+      },
+    ],
+  },
+
+  {
+    tema: 'Educampo',
+    pergunta: 'Qual o perfil de propriedade se encaixa no Educampo?',
+    alternativas: [
+      {
+        texto:
+          'Que tenha proprietário disciplinado, empreendedor e aberto a mudanças.',
+        valor: true,
+      },
+      {
+        texto: 'Que produza pelo menos de 1.000 litros de leite ao dia.',
+        valor: false,
+      },
+      {
+        texto:
+          'Que tenha obrigatoriamente animais registrados em associação de raça.',
+        valor: false,
+      },
+    ],
+  },
+
+  {
+    tema: 'Educampo',
+    pergunta: 'Quais informações a empresa parceira tem acesso?',
+    alternativas: [
+      {
+        texto: 'Dados médios econômicos e produtivos dos grupos de fazendas.',
+        valor: true,
+      },
+      {
+        texto: 'Informações personalizadas por propriedade participante.',
+        valor: false,
+      },
+      {
+        texto:
+          'Dados das demais empresas parceiras participantes da plataforma.',
+        valor: false,
+      },
+    ],
+  },
+
+  {
+    tema: 'Educampo',
+    pergunta: 'São empresas parceiras do Educampo Leite:',
+    alternativas: [
+      {
+        texto:
+          'Cooperativas, associações ou agroindústrias que desejam o desenvolvimento de seus fornecedores.',
+        valor: true,
+      },
+      {
+        texto: 'Laticínios, Revendas de produtos e cooperativas.',
+        valor: false,
+      },
+      {
+        texto: 'Associações, Cooperativas e Revendas de produtos.',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Inova 2',
-    pergunta: 'Onde fica o Vale do Silício?',
+    tema: 'Educampo',
+    pergunta: 'São consultores especialistas do Educampo:',
     alternativas: [
       {
-        texto: 'Califórnia (EUA)',
+        texto:
+          'Agrônomos, zootecnistas ou veterinários selecionados e treinados pela metodologia Educampo.',
         valor: true,
       },
       {
-        texto: 'Nova Iorque (EUA)',
+        texto: 'Funcionários do SEBRAE MG coordenadores da plataforma.',
         valor: false,
       },
       {
-        texto: 'Governador Valadares (EUA)',
+        texto: 'Programadores e desenvolvedores do software Educampo.',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Inova 2',
-    pergunta: 'Qual dessas startups não foi criada no Brasil? ',
+    tema: 'Gestão',
+    pergunta: 'A margem bruta negativa representa:',
     alternativas: [
       {
-        texto: 'Rappi',
+        texto: 'Colapso do negócio no curto prazo.',
         valor: true,
       },
       {
-        texto: '99',
+        texto: 'Sustentabilidade do empreendimento no longo prazo.',
         valor: false,
       },
       {
-        texto: 'Meliuz',
+        texto: 'Garantia de produtividade.',
         valor: false,
       },
     ],
   },
+
   {
-    tema: 'Inova 2',
+    tema: 'Gestão',
+    pergunta: 'Margem bruta positiva com a margem líquida negativa, leva a:',
+    alternativas: [
+      {
+        texto: 'Sucateamento dos bens (máquinas, implementos e instalações).',
+        valor: true,
+      },
+      {
+        texto: 'Sustentabilidade no longo prazo.',
+        valor: false,
+      },
+      {
+        texto: 'Lucro máximo.',
+        valor: false,
+      },
+    ],
+  },
+
+  {
+    tema: 'Gestão',
+    pergunta: 'Qual o item de maior impacto no custo de produção do leite?',
+    alternativas: [
+      {
+        texto: 'Alimentação do rebanho.',
+        valor: true,
+      },
+      {
+        texto: 'Impostos, taxas e contribuições.',
+        valor: false,
+      },
+      {
+        texto: 'Mão de obra contratada.',
+        valor: false,
+      },
+    ],
+  },
+
+  {
+    tema: 'Gestão',
     pergunta:
-      'Qual a importância do apoio do SEBRAE e de entidades, como o Parque Tecnológico no Desenvolvimento de Negócios Inovadores?',
+      'A _____ do leite resulta da diferença entre a renda bruta e o custo operacional efetivo.',
     alternativas: [
       {
-        texto:
-          'São importantes pois apoiam o desenvolvimento das startups com conhecimento (cursos, palestras, etc.), conexões, mentorias, apoio estrutural, rodadas de investimento, etc.        ',
+        texto: 'Margem Bruta.',
         valor: true,
       },
       {
-        texto: 'Fornecem linhas de crédito somente',
+        texto: 'Depreciação.',
         valor: false,
       },
       {
-        texto: 'Permite terceirizar o desenvolvimento do meu negócio',
+        texto: 'Produtividade.',
         valor: false,
       },
     ],
   },
+
   {
-    tema: 'Inova 2',
-    pergunta: 'Qual é o papel da inteligência artificial na inovação?',
+    tema: 'Gestão',
+    pergunta: 'O custo operacional efetivo da atividade leiteira não inclui:',
     alternativas: [
       {
-        texto:
-          'Automatizar tarefas repetitivas e ajudar a identificar padrões ocultos',
+        texto: 'Custos com depreciação.',
         valor: true,
       },
       {
-        texto: 'Limitar o progresso tecnológico e inibir a criatividade',
+        texto: 'Custos com sanidade.',
         valor: false,
       },
       {
-        texto: 'Substituir completamente os humanos na geração de ideias',
+        texto: 'Custos com reprodução.',
         valor: false,
       },
     ],
   },
+
   {
-    tema: 'Inova 2',
-    pergunta: 'O que é um "early adopter"?',
-    alternativas: [
-      {
-        texto:
-          'Um indivíduo que adota uma nova tecnologia ou produto logo no início',
-        valor: true,
-      },
-      {
-        texto: 'Alguém que evita qualquer tipo de mudança ou inovação',
-        valor: false,
-      },
-      {
-        texto:
-          'Um termo utilizado para descrever pessoas resistentes a novidades',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 2',
-    pergunta: 'O que é open innovation?',
-    alternativas: [
-      {
-        texto:
-          'A prática de colaborar e buscar soluções externas para desafios internos',
-        valor: true,
-      },
-      {
-        texto:
-          'O isolamento completo de uma organização, sem interação com o mundo exterior',
-        valor: false,
-      },
-      {
-        texto:
-          'A promoção de ideias restritas apenas a um grupo seleto de indivíduos',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 2',
-    pergunta: 'O que é pivotar?',
-    alternativas: [
-      {
-        texto: 'Uma mudança estratégica de direção em um projeto ou negócio',
-        valor: true,
-      },
-      {
-        texto:
-          'A estratégia de nunca mudar os planos, independentemente das circunstâncias',
-        valor: false,
-      },
-      {
-        texto: 'A exclusão completa de todas as ideias inovadoras',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 2',
-    pergunta: 'O que é o pensamento lateral?',
-    alternativas: [
-      {
-        texto:
-          'Uma abordagem criativa para resolver problemas por meio de perspectivas não convencionais',
-        valor: true,
-      },
-      {
-        texto:
-          'Um estilo de pensamento limitado às formas tradicionais de solução de problemas',
-        valor: false,
-      },
-      {
-        texto:
-          'Um método de análise estruturada usado exclusivamente na área da matemática',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 2',
-    pergunta: 'O que é um disruptor?',
-    alternativas: [
-      {
-        texto:
-          'Uma inovação que causa uma mudança significativa em um setor ou mercado',
-        valor: true,
-      },
-      {
-        texto: 'Uma estratégia para manter o status quo e evitar perturbações',
-        valor: false,
-      },
-      {
-        texto: 'Uma pessoa que se opõe a todas as formas de inovação',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 2',
-    pergunta: 'O que é a prototipagem iterativa?',
-    alternativas: [
-      {
-        texto:
-          'O processo de criar protótipos e refiná-los com base no feedback contínuo',
-        valor: true,
-      },
-      {
-        texto:
-          'A produção de um único protótipo final sem oportunidade para melhorias',
-        valor: false,
-      },
-      {
-        texto: 'A rejeição completa de qualquer forma de prototipagem',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 3',
-    pergunta: 'Qual foi o primeiro unicórnio brasileiro?',
-    alternativas: [
-      {
-        texto: '99',
-        valor: true,
-      },
-      {
-        texto: 'NUBANK',
-        valor: false,
-      },
-      {
-        texto: 'Cavalo do Beto Carreiro',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 3',
-    pergunta: 'Quem é Jeff Bezos?',
-    alternativas: [
-      {
-        texto: 'Fundador e CEO da Amazon',
-        valor: true,
-      },
-      {
-        texto: 'Fundador e CEO do Spotify',
-        valor: false,
-      },
-      {
-        texto: 'Fundador e CEO do Google',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 3',
-    pergunta: 'O que faz um investidor-anjo?',
-    alternativas: [
-      {
-        texto:
-          'Investe em uma startup financeiramente e também a apoio com conhecimento',
-        valor: true,
-      },
-      {
-        texto: 'Investidor já falecido',
-        valor: false,
-      },
-      {
-        texto: 'Investe e atua no dia a dia de uma startup',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 3',
-    pergunta: 'O que é Pitch?',
-    alternativas: [
-      {
-        texto:
-          'Apresentação do negócio para despertar interesse de possíveis investidores',
-        valor: true,
-      },
-      {
-        texto: 'É um meio de pagamento',
-        valor: false,
-      },
-      {
-        texto: 'Cantora de rock brasileira',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 3',
-    pergunta: 'O que é o pensamento criativo?',
-    alternativas: [
-      {
-        texto: 'A habilidade de gerar novas ideias e soluções originais',
-        valor: true,
-      },
-      {
-        texto: 'A tendência de evitar qualquer forma de criatividade',
-        valor: false,
-      },
-      {
-        texto: 'A crença de que a inovação é desnecessária no mundo moderno',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 3',
-    pergunta: 'O que é um brainstorming?',
-    alternativas: [
-      {
-        texto:
-          'Uma técnica para gerar um grande número de ideias de forma rápida e colaborativa',
-        valor: true,
-      },
-      {
-        texto:
-          'A exclusão completa de todas as ideias que não se encaixam nas normas existentes',
-        valor: false,
-      },
-      {
-        texto:
-          'Um método para evitar qualquer tipo de discussão ou colaboração',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 3',
-    pergunta: 'O que é a curva de adoção de inovação?',
-    alternativas: [
-      {
-        texto:
-          'Uma representação gráfica que mostra a taxa de aceitação de uma nova tecnologia ou produto ao longo do tempo',
-        valor: true,
-      },
-      {
-        texto:
-          'Um modelo que desencoraja a adoção de qualquer tipo de inovação',
-        valor: false,
-      },
-      {
-        texto: 'Uma ferramenta usada apenas para promover a conformidade',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 3',
-    pergunta: 'O que é um hub de inovação?',
-    alternativas: [
-      {
-        texto:
-          'Um centro de colaboração e intercâmbio de conhecimento entre empresas e indivíduos',
-        valor: true,
-      },
-      {
-        texto: 'Um lugar onde todas as formas de inovação são proibidas',
-        valor: false,
-      },
-      {
-        texto:
-          'Um dispositivo físico usado exclusivamente para armazenar ideias inovadoras',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 3',
-    pergunta: 'Quais são os benefícios da inovação em pequenos negócios?',
-    alternativas: [
-      {
-        texto:
-          'Aumento da competitividade, criação de novas oportunidades de negócios e melhoria da eficiência',
-        valor: true,
-      },
-      {
-        texto:
-          'Aumento dos custos operacionais, redução da flexibilidade e diminuição do alcance de mercado',
-        valor: false,
-      },
-      {
-        texto:
-          'Aumento das barreiras de entrada, redução da colaboração e estagnação do crescimento',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Inova 3',
+    tema: 'Gestão',
     pergunta:
-      'Quais são os principais desafios enfrentados pelos pequenos negócios ao buscar a inovação?',
+      '____ é o movimento de saídas e entradas de recursos financeiros da propriedade.',
     alternativas: [
       {
-        texto:
-          'Restrição de recursos, falta de conhecimento especializado e resistência à mudança',
+        texto: 'Fluxo de caixa.',
         valor: true,
       },
       {
-        texto:
-          'Facilidade de acesso a financiamentos, excesso de concorrência e falta de visão de longo prazo',
+        texto: 'Depreciação.',
         valor: false,
       },
       {
-        texto:
-          'Sobrecarga de burocracia, baixa demanda por produtos/serviços inovadores e falta de infraestrutura adequada',
+        texto: 'Investimento.',
+        valor: false,
+      },
+    ],
+  },
+
+  {
+    tema: 'Gestão',
+    pergunta: 'É considerado custo fixo:',
+    alternativas: [
+      {
+        texto: 'Custos com depreciação.',
+        valor: true,
+      },
+      {
+        texto: 'Custos com sanidade.',
+        valor: false,
+      },
+      {
+        texto: 'Custos com reprodução.',
+        valor: false,
+      },
+    ],
+  },
+
+  {
+    tema: 'Gestão',
+    pergunta: 'Lucro é a diferença entre a renda bruta e ____.',
+    alternativas: [
+      {
+        texto: 'Custo total.',
+        valor: true,
+      },
+      {
+        texto: 'Mão de obra.',
+        valor: false,
+      },
+      {
+        texto: 'Produtividade.',
+        valor: false,
+      },
+    ],
+  },
+
+  {
+    tema: 'Gestão',
+    pergunta: '____ é a margem líquida sobre a renda bruta da atividade.',
+    alternativas: [
+      {
+        texto: 'Lucratividade.',
+        valor: true,
+      },
+      {
+        texto: 'Investimento.',
+        valor: false,
+      },
+      {
+        texto: 'Custo total.',
+        valor: false,
+      },
+    ],
+  },
+
+  {
+    tema: 'Gestão',
+    pergunta: '____ é a margem líquida sobre o capital empatado na fazenda:',
+    alternativas: [
+      {
+        texto: 'Rentabilidade.',
+        valor: true,
+      },
+      {
+        texto: 'Custo operacional efetivo.',
+        valor: false,
+      },
+      {
+        texto: 'Fluxo de caixa.',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Mercado',
+    pergunta:
+      'Escolha a opção que contempla os três maiores estados produtores de leite no Brasil.',
+    alternativas: [
+      {
+        texto: 'MG, PR e RS.',
+        valor: true,
+      },
+      {
+        texto: 'CE, MS e GO.',
+        valor: false,
+      },
+      {
+        texto: 'MT, MG e GO.',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Mercado',
+    pergunta: 'Qual o país maior consumidor de leite no mundo?',
+    alternativas: [
+      {
+        texto: 'Índia.',
+        valor: true,
+      },
+      {
+        texto: 'Brasil.',
+        valor: false,
+      },
+      {
+        texto: 'EUA.',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Mercado',
+    pergunta:
+      'Atualmente, em relação às importações e exportações de leite, o Brasil:',
+    alternativas: [
+      {
+        texto: 'Importa mais do que exporta.',
+        valor: true,
+      },
+      {
+        texto: 'Exporta mais do que importa.',
+        valor: false,
+      },
+      {
+        texto: 'Ambos são praticamente iguais.',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Mercado',
+    pergunta:
+      'Historicamente, em qual período do ano o leite é comercializado com alta de preços?',
+    alternativas: [
+      {
+        texto: 'Maio a setembro.',
+        valor: true,
+      },
+      {
+        texto: 'Outubro a março.',
+        valor: false,
+      },
+      {
+        texto: 'Não há diferença representativa.',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Mercado',
+    pergunta:
+      'Historicamente, em qual período do ano o leite é comercializado com baixa de preços?',
+    alternativas: [
+      {
+        texto: 'Outubro a março.',
+        valor: true,
+      },
+      {
+        texto: 'Não há diferença representativa.',
+        valor: false,
+      },
+      {
+        texto: 'Maio a setembro.',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Mercado',
+    pergunta:
+      'O Brasil, no ranking mundial de produção de leite de vaca é o __ colocado.',
+    alternativas: [
+      {
+        texto: 'Quinto',
+        valor: true,
+      },
+      {
+        texto: 'Primeiro.',
+        valor: false,
+      },
+      {
+        texto: 'Décimo.',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Mercado',
+    pergunta: 'Qual o maior exportador de leite e derivados para o Brasil?',
+    alternativas: [
+      {
+        texto: 'Argentina.',
+        valor: true,
+      },
+      {
+        texto: 'Uruguai.',
+        valor: false,
+      },
+      {
+        texto: 'Austrália.',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Mercado',
+    pergunta:
+      'Em média, o consumo per capita de leite de vaca (incluindo derivados) no Brasil é:',
+    alternativas: [
+      {
+        texto: '100 a 200 L/Ano.',
+        valor: true,
+      },
+      {
+        texto: '0 a 40 L/Ano.',
+        valor: false,
+      },
+      {
+        texto: 'Acima de 500 L/Ano.',
         valor: false,
       },
     ],

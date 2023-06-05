@@ -9,12 +9,12 @@ export default function PaginaPerguntas() {
 
   let corTema = '';
 
-  if (tema === 'Inova 1') {
-    corTema = '#045bbc';
-  } else if (tema === 'Inova 2') {
-    corTema = '#04949c';
+  if (tema === 'Educampo') {
+    corTema = '#055bb9';
+  } else if (tema === 'Gestão') {
+    corTema = '#5c7b2d';
   } else {
-    corTema = '#5c7c2c';
+    corTema = '#04939b';
   }
 
   /* if (botaoVoltar.style.backgroundColor === '#fff') {
