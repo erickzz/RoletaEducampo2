@@ -16,14 +16,10 @@ const App = () => {
     //console.log(winner);
     setTimeout(() => {
       navigate(`/${winner}`);
-    }, 600);
+    }, 1000);
   };
 
   let rotacao = Math.floor(Math.random() * 400);
-
-  if (rotacao < 150) {
-    rotacao = 150;
-  }
 
   console.log(rotacao);
 
@@ -44,8 +40,8 @@ const App = () => {
         buttonText=""
         isOnlyOnce={false}
         size={260}
-        upDuration={100}
-        downDuration={rotacao}
+        upDuration={rotacao}
+        downDuration={600}
         fontFamily="Arial"
       />
       <div className="left_img">
