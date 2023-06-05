@@ -1,12 +1,8 @@
 import React from 'react';
 import WheelComponent from '../components/wheel';
 import '../index.css';
-//import LogoVarejo from '../assets/Logo_Varejo.png';
-//import LogoFocus from '../assets/Logo_Focus.png';
 import ClickIcon from '../assets/Click_Icon.jpeg';
 import MarcaSebrae from '../assets/marca-sebrae.png';
-import LogoParque from '../assets/Logo_Parque.png';
-import LogoArena from '../assets/Logo_Arena.png';
 import logo_educampo from '../assets/logo_educampo.png';
 
 import { useNavigate } from 'react-router-dom';

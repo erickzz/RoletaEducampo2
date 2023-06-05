@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {
-  createBrowserRouter,
-  RouterProvider,
-  createHashRouter,
-} from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 
 import PaginaPerguntas from './pages/PaginaPerguntas';
 import App from './pages/App';
