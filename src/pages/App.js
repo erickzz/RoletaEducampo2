@@ -44,7 +44,7 @@ const App = () => {
         buttonText=""
         isOnlyOnce={false}
         size={260}
-        upDuration={300}
+        upDuration={rotacao}
         downDuration={1200}
         fontFamily="Arial"
       />
