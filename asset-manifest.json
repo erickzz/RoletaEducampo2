@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RoletaEducampo2/static/css/main.963d86c4.css",
-    "main.js": "/RoletaEducampo2/static/js/main.1fda192e.js",
+    "main.js": "/RoletaEducampo2/static/js/main.c5240b31.js",
     "static/media/winner-bell-game-show.wav": "/RoletaEducampo2/static/media/winner-bell-game-show.dd92b8620b60636d8bf1.wav",
     "static/media/bad-beep-incorrect.wav": "/RoletaEducampo2/static/media/bad-beep-incorrect.0d8cd91514b5d7fe4086.wav",
     "static/media/Campton-Bold.otf": "/RoletaEducampo2/static/media/Campton-Bold.d63feafcf51c807bd9bd.otf",
@@ -9,10 +9,10 @@
     "static/media/marca-sebrae-branca.png": "/RoletaEducampo2/static/media/marca-sebrae-branca.9a13f7f8039988f8ad24.png",
     "index.html": "/RoletaEducampo2/index.html",
     "main.963d86c4.css.map": "/RoletaEducampo2/static/css/main.963d86c4.css.map",
-    "main.1fda192e.js.map": "/RoletaEducampo2/static/js/main.1fda192e.js.map"
+    "main.c5240b31.js.map": "/RoletaEducampo2/static/js/main.c5240b31.js.map"
   },
   "entrypoints": [
     "static/css/main.963d86c4.css",
-    "static/js/main.1fda192e.js"
+    "static/js/main.c5240b31.js"
   ]
 }
