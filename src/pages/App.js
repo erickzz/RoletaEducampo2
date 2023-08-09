@@ -30,7 +30,7 @@ const App = () => {
   return (
     <>
       <div className="main_text">
-        <p>Quiz Café</p>
+        <p>Quiz Leite</p>
       </div>
 
       <img className="icone-click" src={ClickIcon} alt="Ícone de Clique" />
