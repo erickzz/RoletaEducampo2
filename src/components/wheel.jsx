@@ -141,7 +141,7 @@ const WheelComponent = ({
     ctx.rotate((lastAngle + angle) / 2);
     ctx.fillStyle = contrastColor;
     ctx.font = `bold ${responsive ? '0.8em ' : '1.6em '}` + fontFamily;
-    ctx.fillText(value.substr(0, 21), size / 2 + 5, 0);
+    ctx.fillText(value.substr(0, 21), size /1.8, 0);
     ctx.restore();
   };
 
@@ -163,7 +163,7 @@ const WheelComponent = ({
 
     // Draw a center circle
     ctx.beginPath();
-    ctx.arc(centerX, centerY, responsive ? 10 : 50, 0, PI2, false);
+    ctx.arc(centerX, centerY, responsive ? 20 : 50, 0, PI2, false);
     ctx.closePath();
     ctx.fillStyle = primaryColor;
     ctx.lineWidth = 10;
