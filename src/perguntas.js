@@ -1,549 +1,550 @@
-export const Perguntas = [
+const Perguntas = [
   {
-    tema: 'Educampo',
-    pergunta: 'O que é o Educampo?',
+    tema: 'Produção de leite e indústria',
+    pergunta: 'Qual é o principal estado produtor de leite no Brasil?',
     alternativas: [
       {
-        texto:
-          'Plataforma do Sebrae que gera a inteligência essencial para construir capacidades e criar oportunidades para o desenvolvimento do agronegócio.',
+        texto: 'Minas Gerais',
         valor: true,
       },
       {
-        texto: 'Consultoria técnica tradicional.',
+        texto: 'São Paulo',
         valor: false,
       },
       {
-        texto: 'Faculdade de formação de alunos no campo.',
+        texto: 'Paraná',
         valor: false,
       },
     ],
   },
-
   {
-    tema: 'Educampo',
-    pergunta: 'O Educampo proporciona, exceto:',
+    tema: 'Produção de leite e indústria',
+    pergunta: 'Qual é a principal raça de vaca leiteira no Brasil?',
     alternativas: [
       {
-        texto: 'Resultados sem o desejo e envolvimento do produtor.',
+        texto: 'Holandesa',
         valor: true,
       },
       {
-        texto:
-          'Informações exclusivas e estratégicas, projeções, cenários e análises integradas.',
+        texto: 'Jersey',
         valor: false,
       },
       {
-        texto:
-          'Troca de conhecimentos e networking entre produtores e consultores especialistas.',
+        texto: 'Girolando',
         valor: false,
       },
     ],
   },
-
   {
-    tema: 'Educampo',
-    pergunta: 'Qual é o propósito do Educampo?',
-    alternativas: [
-      {
-        texto:
-          'Gerar, organizar e disponibilizar a inteligência essencial para o agronegócio.',
-        valor: true,
-      },
-      {
-        texto:
-          'Oferecer consultoria técnica tradicional para os produtores de leite.',
-        valor: false,
-      },
-      {
-        texto:
-          'Coletar informações técnicas e gerenciais que não agregam valor para o produtor.',
-        valor: false,
-      },
-    ],
-  },
-
-  {
-    tema: 'Educampo',
-    pergunta: 'Sobre o Educampo é incorreto afirmar que:',
-    alternativas: [
-      {
-        texto:
-          'Dificulta o planejamento das propriedades pois gera informações pouco relevantes.',
-        valor: true,
-      },
-      {
-        texto:
-          'Possui banco de dados econômico consistente que permite a geração de análises.',
-        valor: false,
-      },
-      {
-        texto:
-          'Possibilita a integração e a conexão das propriedades por meio da plataforma.',
-        valor: false,
-      },
-    ],
-  },
-
-  {
-    tema: 'Educampo',
+    tema: 'Produção de leite e indústria',
     pergunta:
-      'Sobre os consultores especialistas que participam do Educampo é incorreto afirmar que:',
+      'Qual é o órgão responsável pela regulamentação da produção de leite no Brasil?',
     alternativas: [
       {
-        texto: 'Não são treinados pela metodologia do Educampo.',
+        texto: 'Ministério da Agricultura',
         valor: true,
       },
       {
-        texto:
-          'Recebem capacitações contínuas que ampliam a experiência em gestão.',
+        texto: 'ANVISA',
         valor: false,
       },
       {
-        texto:
-          'Trocam experiências com outros consultores, produtores e empresas parceiras.',
-        valor: false,
-      },
-    ],
-  },
-
-  {
-    tema: 'Educampo',
-    pergunta: 'Qual perfil de produtores não se encaixa no Educampo?',
-    alternativas: [
-      {
-        texto: 'Que não busca a melhoria de resultados técnicos e econômicos.',
-        valor: true,
-      },
-      {
-        texto:
-          'Possui a necessidade de utilizar a inteligência de dados para evoluir o seu negócio.',
-        valor: false,
-      },
-      {
-        texto: 'Empreendedor e aberto a mudanças.',
-        valor: false,
-      },
-    ],
-  },
-
-  {
-    tema: 'Educampo',
-    pergunta: 'Qual o perfil de propriedade se encaixa no Educampo?',
-    alternativas: [
-      {
-        texto:
-          'Que tenha proprietário disciplinado, empreendedor e aberto a mudanças.',
-        valor: true,
-      },
-      {
-        texto: 'Que produza pelo menos de 1.000 litros de leite ao dia.',
-        valor: false,
-      },
-      {
-        texto:
-          'Que tenha obrigatoriamente animais registrados em associação de raça.',
-        valor: false,
-      },
-    ],
-  },
-
-  {
-    tema: 'Educampo',
-    pergunta: 'Quais informações a empresa parceira tem acesso?',
-    alternativas: [
-      {
-        texto: 'Dados médios econômicos e produtivos dos grupos de fazendas.',
-        valor: true,
-      },
-      {
-        texto: 'Informações personalizadas por propriedade participante.',
-        valor: false,
-      },
-      {
-        texto:
-          'Dados das demais empresas parceiras participantes da plataforma.',
-        valor: false,
-      },
-    ],
-  },
-
-  {
-    tema: 'Educampo',
-    pergunta: 'São empresas parceiras do Educampo Leite:',
-    alternativas: [
-      {
-        texto:
-          'Cooperativas, associações ou agroindústrias que desejam o desenvolvimento de seus fornecedores.',
-        valor: true,
-      },
-      {
-        texto: 'Laticínios, Revendas de produtos e cooperativas.',
-        valor: false,
-      },
-      {
-        texto: 'Associações, Cooperativas e Revendas de produtos.',
+        texto: 'IBGE',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Educampo',
-    pergunta: 'São consultores especialistas do Educampo:',
+    tema: 'Produção de leite e indústria',
+    pergunta: 'Qual é o país que mais importa leite do Brasil?',
     alternativas: [
       {
-        texto:
-          'Agrônomos, zootecnistas ou veterinários selecionados e treinados pela metodologia Educampo.',
+        texto: 'China',
         valor: true,
       },
       {
-        texto: 'Funcionários do SEBRAE MG coordenadores da plataforma.',
+        texto: 'Estados Unidos',
         valor: false,
       },
       {
-        texto: 'Programadores e desenvolvedores do software Educampo.',
+        texto: 'Argentina',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Gestão',
-    pergunta: 'A margem bruta negativa representa:',
+    tema: 'Produção de leite e indústria',
+    pergunta: 'Qual é o prazo de validade médio do leite pasteurizado?',
     alternativas: [
       {
-        texto: 'Colapso do negócio no curto prazo.',
+        texto: '7 dias',
         valor: true,
       },
       {
-        texto: 'Sustentabilidade do empreendimento no longo prazo.',
+        texto: '15 dias',
         valor: false,
       },
       {
-        texto: 'Garantia de produtividade.',
+        texto: '30 dias',
         valor: false,
       },
     ],
   },
-
   {
-    tema: 'Gestão',
-    pergunta: 'Margem bruta positiva com a margem líquida negativa, leva a:',
+    tema: 'Produção de leite e indústria',
+    pergunta: 'Qual é a maior cooperativa de laticínios do Brasil?',
     alternativas: [
       {
-        texto: 'Sucateamento dos bens (máquinas, implementos e instalações).',
+        texto: 'Itambé',
         valor: true,
       },
       {
-        texto: 'Sustentabilidade no longo prazo.',
+        texto: 'Aurora',
         valor: false,
       },
       {
-        texto: 'Lucro máximo.',
+        texto: 'Languiru',
         valor: false,
       },
     ],
   },
-
   {
-    tema: 'Gestão',
-    pergunta: 'Qual o item de maior impacto no custo de produção do leite?',
+    tema: 'Produção de leite e indústria',
+    pergunta: 'Qual é a porcentagem média de água no leite?',
     alternativas: [
       {
-        texto: 'Alimentação do rebanho.',
+        texto: '87%',
         valor: true,
       },
       {
-        texto: 'Impostos, taxas e contribuições.',
+        texto: '50%',
         valor: false,
       },
       {
-        texto: 'Mão de obra contratada.',
+        texto: '95%',
         valor: false,
       },
     ],
   },
-
   {
-    tema: 'Gestão',
+    tema: 'Produção de leite e indústria',
     pergunta:
-      'A _____ do leite resulta da diferença entre a renda bruta e o custo operacional efetivo.',
+      'Qual é o processo utilizado para prolongar a vida útil do leite através do aquecimento?',
     alternativas: [
       {
-        texto: 'Margem Bruta.',
+        texto: 'UHT (Ultra High Temperature)',
         valor: true,
       },
       {
-        texto: 'Depreciação.',
+        texto: 'Fermentação',
         valor: false,
       },
       {
-        texto: 'Produtividade.',
+        texto: 'Congelamento',
         valor: false,
       },
     ],
   },
-
   {
-    tema: 'Gestão',
-    pergunta: 'O custo operacional efetivo da atividade leiteira não inclui:',
+    tema: 'Produção de leite e indústria',
+    pergunta: 'Qual é a temperatura ideal de armazenamento do leite?',
     alternativas: [
       {
-        texto: 'Custos com depreciação.',
+        texto: '4°C',
         valor: true,
       },
       {
-        texto: 'Custos com sanidade.',
+        texto: '10°C',
         valor: false,
       },
       {
-        texto: 'Custos com reprodução.',
+        texto: '20°C',
         valor: false,
       },
     ],
   },
-
   {
-    tema: 'Gestão',
+    tema: 'Produção de leite e indústria',
+    pergunta: 'Qual é o período de gestação de uma vaca leiteira?',
+    alternativas: [
+      {
+        texto: '9 meses',
+        valor: true,
+      },
+      {
+        texto: '12 meses',
+        valor: false,
+      },
+      {
+        texto: '18 meses',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Nutrição e qualidade do leite',
+    pergunta: 'Qual é a porcentagem média de gordura no leite integral?',
+    alternativas: [
+      {
+        texto: '3,5%',
+        valor: true,
+      },
+      {
+        texto: '1,5%',
+        valor: false,
+      },
+      {
+        texto: '5,0%',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Nutrição e qualidade do leite',
     pergunta:
-      '____ é o movimento de saídas e entradas de recursos financeiros da propriedade.',
+      'Qual é a técnica utilizada para remover a gordura do leite e produzir leite desnatado?',
     alternativas: [
       {
-        texto: 'Fluxo de caixa.',
+        texto: 'Homogeneização',
         valor: true,
       },
       {
-        texto: 'Depreciação.',
+        texto: 'Pasteurização',
         valor: false,
       },
       {
-        texto: 'Investimento.',
-        valor: false,
-      },
-    ],
-  },
-
-  {
-    tema: 'Gestão',
-    pergunta: 'É considerado custo fixo:',
-    alternativas: [
-      {
-        texto: 'Custos com depreciação.',
-        valor: true,
-      },
-      {
-        texto: 'Custos com sanidade.',
-        valor: false,
-      },
-      {
-        texto: 'Custos com reprodução.',
-        valor: false,
-      },
-    ],
-  },
-
-  {
-    tema: 'Gestão',
-    pergunta: 'Lucro é a diferença entre a renda bruta e ____.',
-    alternativas: [
-      {
-        texto: 'Custo total.',
-        valor: true,
-      },
-      {
-        texto: 'Mão de obra.',
-        valor: false,
-      },
-      {
-        texto: 'Produtividade.',
-        valor: false,
-      },
-    ],
-  },
-
-  {
-    tema: 'Gestão',
-    pergunta: '____ é a margem líquida sobre a renda bruta da atividade.',
-    alternativas: [
-      {
-        texto: 'Lucratividade.',
-        valor: true,
-      },
-      {
-        texto: 'Investimento.',
-        valor: false,
-      },
-      {
-        texto: 'Custo total.',
-        valor: false,
-      },
-    ],
-  },
-
-  {
-    tema: 'Gestão',
-    pergunta: '____ é a margem líquida sobre o capital empatado na fazenda:',
-    alternativas: [
-      {
-        texto: 'Rentabilidade.',
-        valor: true,
-      },
-      {
-        texto: 'Custo operacional efetivo.',
-        valor: false,
-      },
-      {
-        texto: 'Fluxo de caixa.',
+        texto: 'Desnatadeira centrífuga',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Mercado',
+    tema: 'Nutrição e qualidade do leite',
+    pergunta: 'Qual é a principal fonte de proteína no leite?',
+    alternativas: [
+      {
+        texto: 'Caseína',
+        valor: true,
+      },
+      {
+        texto: 'Lactose',
+        valor: false,
+      },
+      {
+        texto: 'Colesterol',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Nutrição e qualidade do leite',
+    pergunta: 'Qual é o efeito da alimentação do gado na qualidade do leite?',
+    alternativas: [
+      {
+        texto: 'Influencia na quantidade de gordura',
+        valor: true,
+      },
+      {
+        texto: 'Determina a cor do leite',
+        valor: false,
+      },
+      {
+        texto: 'Afeta o teor de lactose',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Nutrição e qualidade do leite',
+    pergunta: 'Qual é a média de litros de leite produzidos por vaca por dia?',
+    alternativas: [
+      {
+        texto: '30 litros',
+        valor: true,
+      },
+      {
+        texto: '20 litros',
+        valor: false,
+      },
+      {
+        texto: '10 litros',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Nutrição e qualidade do leite',
+    pergunta: 'Qual é a quantidade média de gordura no leite desnatado?',
+    alternativas: [
+      {
+        texto: '0%',
+        valor: true,
+      },
+      {
+        texto: '1%',
+        valor: false,
+      },
+      {
+        texto: '3%',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Nutrição e qualidade do leite',
+    pergunta: 'Qual é o teor de proteína presente no leite?',
+    alternativas: [
+      {
+        texto: 'Cerca de 3,2%',
+        valor: true,
+      },
+      {
+        texto: 'Cerca de 5,0%',
+        valor: false,
+      },
+      {
+        texto: 'Cerca de 1,0%',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Nutrição e qualidade do leite',
     pergunta:
-      'Escolha a opção que contempla os três maiores estados produtores de leite no Brasil.',
+      'Qual é o processo utilizado para eliminar bactérias no leite e aumentar sua vida útil?',
     alternativas: [
       {
-        texto: 'MG, PR e RS.',
+        texto: 'Pasteurização',
         valor: true,
       },
       {
-        texto: 'CE, MS e GO.',
+        texto: 'Fermentação',
         valor: false,
       },
       {
-        texto: 'MT, MG e GO.',
+        texto: 'Congelamento',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Mercado',
-    pergunta: 'Qual o país maior consumidor de leite no mundo?',
-    alternativas: [
-      {
-        texto: 'Índia.',
-        valor: true,
-      },
-      {
-        texto: 'Brasil.',
-        valor: false,
-      },
-      {
-        texto: 'EUA.',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Mercado',
+    tema: 'Nutrição e qualidade do leite',
     pergunta:
-      'Atualmente, em relação às importações e exportações de leite, o Brasil:',
+      'Qual é o termo utilizado para se referir à adição de vitaminas e minerais no leite?',
     alternativas: [
       {
-        texto: 'Importa mais do que exporta.',
+        texto: 'Fortificação',
         valor: true,
       },
       {
-        texto: 'Exporta mais do que importa.',
+        texto: 'Homogeneização',
         valor: false,
       },
       {
-        texto: 'Ambos são praticamente iguais.',
+        texto: 'Fermentação',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Mercado',
+    tema: 'Nutrição e qualidade do leite',
+    pergunta: 'Qual é a principal função da pasteurização do leite?',
+    alternativas: [
+      {
+        texto: 'Eliminar bactérias e microorganismos',
+        valor: true,
+      },
+      {
+        texto: 'Aumentar a quantidade de gordura no leite',
+        valor: false,
+      },
+      {
+        texto: 'Alterar o sabor e aroma do leite',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Consumo e curiosidades',
+    pergunta: 'Qual é o país que mais consome leite per capita no mundo?',
+    alternativas: [
+      {
+        texto: 'Suécia',
+        valor: true,
+      },
+      {
+        texto: 'Brasil',
+        valor: false,
+      },
+      {
+        texto: 'Estados Unidos',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Consumo e curiosidades',
     pergunta:
-      'Historicamente, em qual período do ano o leite é comercializado com alta de preços?',
+      'Qual é a média de consumo de leite por pessoa no Brasil por dia?',
     alternativas: [
       {
-        texto: 'Maio a setembro.',
+        texto: '500 ml',
         valor: true,
       },
       {
-        texto: 'Outubro a março.',
+        texto: '1 litro',
         valor: false,
       },
       {
-        texto: 'Não há diferença representativa.',
+        texto: '1,5 litro',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Mercado',
-    pergunta:
-      'Historicamente, em qual período do ano o leite é comercializado com baixa de preços?',
+    tema: 'Consumo e curiosidades',
+    pergunta: 'Qual é a porcentagem de lactose presente no leite?',
     alternativas: [
       {
-        texto: 'Outubro a março.',
+        texto: 'Cerca de 4,7%',
         valor: true,
       },
       {
-        texto: 'Não há diferença representativa.',
+        texto: 'Cerca de 1,5%',
         valor: false,
       },
       {
-        texto: 'Maio a setembro.',
+        texto: 'Cerca de 8,0%',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Mercado',
-    pergunta:
-      'O Brasil, no ranking mundial de produção de leite de vaca é o __ colocado.',
+    tema: 'Consumo e curiosidades',
+    pergunta: 'Qual é o país que mais produz leite no mundo?',
     alternativas: [
       {
-        texto: 'Quinto',
+        texto: 'Índia',
         valor: true,
       },
       {
-        texto: 'Primeiro.',
+        texto: 'Estados Unidos',
         valor: false,
       },
       {
-        texto: 'Décimo.',
+        texto: 'Brasil',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Mercado',
-    pergunta: 'Qual o maior exportador de leite e derivados para o Brasil?',
+    tema: 'Consumo e curiosidades',
+    pergunta: 'Qual é o mês em que se comemora o Dia Mundial do Leite?',
     alternativas: [
       {
-        texto: 'Argentina.',
+        texto: 'Maio',
         valor: true,
       },
       {
-        texto: 'Uruguai.',
+        texto: 'Junho',
         valor: false,
       },
       {
-        texto: 'Austrália.',
+        texto: 'Julho',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Mercado',
-    pergunta:
-      'Em média, o consumo per capita de leite de vaca (incluindo derivados) no Brasil é:',
+    tema: 'Consumo e curiosidades',
+    pergunta: 'Qual é o período de lactação médio de uma vaca leiteira?',
     alternativas: [
       {
-        texto: '100 a 200 L/Ano.',
+        texto: '305 dias',
         valor: true,
       },
       {
-        texto: '0 a 40 L/Ano.',
+        texto: '325 dias',
         valor: false,
       },
       {
-        texto: 'Acima de 500 L/Ano.',
+        texto: '345 dias',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Consumo e curiosidades',
+    pergunta: 'Qual é o tipo de embalagem mais comum para o leite longa vida?',
+    alternativas: [
+      {
+        texto: 'Caixa Tetra Pak',
+        valor: true,
+      },
+      {
+        texto: 'Garrafa de plástico',
+        valor: false,
+      },
+      {
+        texto: 'Sacos plásticos',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Consumo e curiosidades',
+    pergunta: 'Qual é o principal destino do leite produzido no Brasil?',
+    alternativas: [
+      {
+        texto: 'Mercado interno',
+        valor: true,
+      },
+      {
+        texto: 'Exportação',
+        valor: false,
+      },
+      {
+        texto: 'Indústria de queijos',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Consumo e curiosidades',
+    pergunta: 'Qual é o processo utilizado para separar o creme do leite?',
+    alternativas: [
+      {
+        texto: 'Centrifugação',
+        valor: true,
+      },
+      {
+        texto: 'Coagulação',
+        valor: false,
+      },
+      {
+        texto: 'Batedura',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Consumo e curiosidades',
+    pergunta: 'Qual é a temperatura de pasteurização do leite?',
+    alternativas: [
+      {
+        texto: '72°C por 15 segundos',
+        valor: true,
+      },
+      {
+        texto: '100°C por 1 minuto',
+        valor: false,
+      },
+      {
+        texto: '60°C por 30 minutos',
         valor: false,
       },
     ],
   },
 ];
+
+export default Perguntas;
