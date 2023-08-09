@@ -1,4 +1,4 @@
-const Perguntas = [
+export const Perguntas = [
   {
     tema: 'Produção de leite e indústria',
     pergunta: 'Qual é o principal estado produtor de leite no Brasil?',
@@ -546,5 +546,3 @@ const Perguntas = [
     ],
   },
 ];
-
-export default Perguntas;
