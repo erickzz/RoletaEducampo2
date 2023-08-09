@@ -24,7 +24,7 @@ const WheelComponent = ({
   let angleCurrent = 0;
   let angleDelta = 0;
   let canvasContext = null;
-  let maxSpeed = 0.08 //10 / `${segments.length}`;
+  let maxSpeed = 0.10 //10 / `${segments.length}`;
   const upTime = segments.length * upDuration;
   const downTime = segments.length * downDuration;
   let spinStart = 0;
@@ -59,7 +59,7 @@ const WheelComponent = ({
     isStarted = true;
     if (timerHandle === 0) {
       spinStart = new Date().getTime();
-      maxSpeed = 0.08//Math.PI / segments.length;
+      maxSpeed = 0.10//Math.PI / segments.length;
       frames = 0;
       timerHandle = setInterval(onTimerTick, timerDelay);
     }
