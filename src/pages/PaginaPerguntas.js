@@ -13,13 +13,13 @@ export default function PaginaPerguntas() {
 
   if (tema === 'Produção') {
     corTema = '#055bb9';
-    temaCompleto = 'Produção de leite e indústria';
-  } else if (tema === 'Nutrição') {
+    temaCompleto = 'Produção de café e indústria';
+  } else if (tema === 'Qualidade') {
     corTema = '#5c7b2d';
-    temaCompleto = 'Nutrição e qualidade do leite';
+    temaCompleto = 'Qualidade e consumo do café';
   } else {
     corTema = '#04939b';
-    temaCompleto = 'Consumo e curiosidades';
+    temaCompleto = 'Curiosidades sobre o café';
   }
 
   /* if (botaoVoltar.style.backgroundColor === '#fff') {

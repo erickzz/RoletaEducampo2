@@ -1,7 +1,7 @@
 export const Perguntas = [
   {
     tema: 'Produção',
-    pergunta: 'Qual é o principal estado produtor de leite no Brasil?',
+    pergunta: 'Qual é o principal estado produtor de café no Brasil?  ',
     alternativas: [
       {
         texto: 'Minas Gerais',
@@ -12,116 +12,118 @@ export const Perguntas = [
         valor: false,
       },
       {
-        texto: 'Paraná',
+        texto: 'Bahia',
+        valor: false,
+      },
+    ],
+  },
+  //convert the rest of the questions to this format
+  {
+    tema: 'Produção',
+    pergunta: 'Qual é a espécie de café mais cultivada no Brasil?  ',
+    alternativas: [
+      {
+        texto: 'Coffea arabica',
+        valor: true,
+      },
+      {
+        texto: 'Coffea canephora (conilon)',
+        valor: false,
+      },
+      {
+        texto: 'Coffea liberica',
         valor: false,
       },
     ],
   },
   {
     tema: 'Produção',
-    pergunta: 'Qual é a principal raça de vaca leiteira no Brasil?',
+    pergunta: 'Qual é o principal país importador de café brasileiro?  ',
     alternativas: [
       {
-        texto: 'Holandesa',
-        valor: true,
-      },
-      {
-        texto: 'Jersey',
+        texto: 'Alemanha',
         valor: false,
-      },
-      {
-        texto: 'Girolando',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Produção',
-    pergunta:
-      'Qual é o órgão responsável pela regulamentação da produção de leite no Brasil?',
-    alternativas: [
-      {
-        texto: 'Ministério da Agricultura',
-        valor: true,
-      },
-      {
-        texto: 'ANVISA',
-        valor: false,
-      },
-      {
-        texto: 'IBGE',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Produção',
-    pergunta: 'Qual é o país que mais importa leite do Brasil?',
-    alternativas: [
-      {
-        texto: 'China',
-        valor: true,
       },
       {
         texto: 'Estados Unidos',
         valor: false,
       },
       {
-        texto: 'Argentina',
+        texto: 'Itália',
+        valor: true,
+      },
+    ],
+  },
+  {
+    tema: 'Produção',
+    pergunta:
+      'Qual é a época do ano em que ocorre a colheita do café no Brasil?  ',
+    alternativas: [
+      {
+        texto: 'Inverno',
+        valor: false,
+      },
+      {
+        texto: 'Primavera',
+        valor: false,
+      },
+      {
+        texto: 'Verão',
+        valor: true,
+      },
+    ],
+  },
+  {
+    tema: 'Produção',
+    pergunta: 'Qual é a porcentagem média de água no café verde?  ',
+    alternativas: [
+      {
+        texto: 'Cerca de 11%',
+        valor: false,
+      },
+      {
+        texto: 'Cerca de 25%',
+        valor: false,
+      },
+      {
+        texto: 'Cerca de 5%',
+        valor: true,
+      },
+    ],
+  },
+  {
+    tema: 'Produção',
+    pergunta:
+      'Qual é o processo utilizado para secar os grãos de café após a colheita?  ',
+    alternativas: [
+      {
+        texto: 'Secagem natural ao sol',
+        valor: true,
+      },
+      {
+        texto: 'Secagem por máquina',
+        valor: false,
+      },
+      {
+        texto: 'Secagem em estufa',
         valor: false,
       },
     ],
   },
   {
     tema: 'Produção',
-    pergunta: 'Qual é o prazo de validade médio do leite pasteurizado?',
+    pergunta: 'Qual é a classificação do café com grãos de tamanho médio?  ',
     alternativas: [
       {
-        texto: '7 dias',
+        texto: 'Café tradicional',
         valor: true,
       },
       {
-        texto: '15 dias',
+        texto: 'Café gourmet',
         valor: false,
       },
       {
-        texto: '30 dias',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Produção',
-    pergunta: 'Qual é a maior cooperativa de laticínios do Brasil?',
-    alternativas: [
-      {
-        texto: 'Itambé',
-        valor: true,
-      },
-      {
-        texto: 'Aurora',
-        valor: false,
-      },
-      {
-        texto: 'Languiru',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Produção',
-    pergunta: 'Qual é a porcentagem média de água no leite?',
-    alternativas: [
-      {
-        texto: '87%',
-        valor: true,
-      },
-      {
-        texto: '50%',
-        valor: false,
-      },
-      {
-        texto: '95%',
+        texto: 'Café superior',
         valor: false,
       },
     ],
@@ -129,247 +131,84 @@ export const Perguntas = [
   {
     tema: 'Produção',
     pergunta:
-      'Qual é o processo utilizado para prolongar a vida útil do leite através do aquecimento?',
+      'Qual é o termo utilizado para descrever a degustação profissional de café?  ',
     alternativas: [
       {
-        texto: 'UHT (Ultra High Temperature)',
+        texto: 'Cupping',
         valor: true,
       },
       {
-        texto: 'Fermentação',
+        texto: 'Brewing',
         valor: false,
       },
       {
-        texto: 'Congelamento',
+        texto: 'Roasting',
         valor: false,
       },
     ],
   },
   {
     tema: 'Produção',
-    pergunta: 'Qual é a temperatura ideal de armazenamento do leite?',
+    pergunta:
+      'Qual é o método de processamento de café que utiliza água para remover a polpa dos grãos?  ',
     alternativas: [
       {
-        texto: '4°C',
+        texto: 'Via úmida',
         valor: true,
       },
       {
-        texto: '10°C',
+        texto: 'Via seca',
         valor: false,
       },
       {
-        texto: '20°C',
+        texto: 'Via semiúmida',
         valor: false,
       },
     ],
   },
   {
     tema: 'Produção',
-    pergunta: 'Qual é o período de gestação de uma vaca leiteira?',
+    pergunta: 'Qual é o principal tipo de café produzido no Brasil?  ',
     alternativas: [
       {
-        texto: '9 meses',
+        texto: 'Café arábica',
         valor: true,
       },
       {
-        texto: '12 meses',
+        texto: 'Café robusta',
         valor: false,
       },
       {
-        texto: '18 meses',
+        texto: 'Café especial',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Nutrição',
-    pergunta: 'Qual é a porcentagem média de gordura no leite integral?',
+    tema: 'Qualidade',
+    pergunta: 'Qual é a quantidade média de cafeína em uma xícara de café?  ',
     alternativas: [
       {
-        texto: '3,5%',
+        texto: 'Cerca de 95 mg',
         valor: true,
       },
       {
-        texto: '1,5%',
+        texto: 'Cerca de 50 mg',
         valor: false,
       },
       {
-        texto: '5,0%',
+        texto: 'Cerca de 150 mg',
         valor: false,
       },
     ],
   },
+  //convert the rest of the questions to this format
   {
-    tema: 'Nutrição',
-    pergunta:
-      'Qual é a técnica utilizada para remover a gordura do leite e produzir leite desnatado?',
+    tema: 'Qualidade',
+    pergunta: 'Qual é o país que mais consome café per capita no mundo?  ',
     alternativas: [
       {
-        texto: 'Homogeneização',
-        valor: true,
-      },
-      {
-        texto: 'Pasteurização',
-        valor: false,
-      },
-      {
-        texto: 'Desnatadeira centrífuga',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Nutrição',
-    pergunta: 'Qual é a principal fonte de proteína no leite?',
-    alternativas: [
-      {
-        texto: 'Caseína',
-        valor: true,
-      },
-      {
-        texto: 'Lactose',
-        valor: false,
-      },
-      {
-        texto: 'Colesterol',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Nutrição',
-    pergunta: 'Qual é o efeito da alimentação do gado na qualidade do leite?',
-    alternativas: [
-      {
-        texto: 'Influencia na quantidade de gordura',
-        valor: true,
-      },
-      {
-        texto: 'Determina a cor do leite',
-        valor: false,
-      },
-      {
-        texto: 'Afeta o teor de lactose',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Nutrição',
-    pergunta: 'Qual é a média de litros de leite produzidos por vaca por dia?',
-    alternativas: [
-      {
-        texto: '30 litros',
-        valor: true,
-      },
-      {
-        texto: '20 litros',
-        valor: false,
-      },
-      {
-        texto: '10 litros',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Nutrição',
-    pergunta: 'Qual é a quantidade média de gordura no leite desnatado?',
-    alternativas: [
-      {
-        texto: '0%',
-        valor: true,
-      },
-      {
-        texto: '1%',
-        valor: false,
-      },
-      {
-        texto: '3%',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Nutrição',
-    pergunta: 'Qual é o teor de proteína presente no leite?',
-    alternativas: [
-      {
-        texto: 'Cerca de 3,2%',
-        valor: true,
-      },
-      {
-        texto: 'Cerca de 5,0%',
-        valor: false,
-      },
-      {
-        texto: 'Cerca de 1,0%',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Nutrição',
-    pergunta:
-      'Qual é o processo utilizado para eliminar bactérias no leite e aumentar sua vida útil?',
-    alternativas: [
-      {
-        texto: 'Pasteurização',
-        valor: true,
-      },
-      {
-        texto: 'Fermentação',
-        valor: false,
-      },
-      {
-        texto: 'Congelamento',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Nutrição',
-    pergunta:
-      'Qual é o termo utilizado para se referir à adição de vitaminas e minerais no leite?',
-    alternativas: [
-      {
-        texto: 'Fortificação',
-        valor: true,
-      },
-      {
-        texto: 'Homogeneização',
-        valor: false,
-      },
-      {
-        texto: 'Fermentação',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Nutrição',
-    pergunta: 'Qual é a principal função da pasteurização do leite?',
-    alternativas: [
-      {
-        texto: 'Eliminar bactérias e microorganismos',
-        valor: true,
-      },
-      {
-        texto: 'Aumentar a quantidade de gordura no leite',
-        valor: false,
-      },
-      {
-        texto: 'Alterar o sabor e aroma do leite',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Consumo',
-    pergunta: 'Qual é o país que mais consome leite per capita no mundo?',
-    alternativas: [
-      {
-        texto: 'Suécia',
+        texto: 'Finlândia',
         valor: true,
       },
       {
@@ -377,170 +216,340 @@ export const Perguntas = [
         valor: false,
       },
       {
-        texto: 'Estados Unidos',
+        texto: 'Itália',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Consumo',
+    tema: 'Qualidade',
+    pergunta: 'Qual é a porcentagem média de óleos essenciais no café?  ',
+    alternativas: [
+      {
+        texto: 'Cerca de 1%',
+        valor: false,
+      },
+      {
+        texto: 'Cerca de 5%',
+        valor: false,
+      },
+      {
+        texto: 'Cerca de 10%',
+        valor: true,
+      },
+    ],
+  },
+  {
+    tema: 'Qualidade',
+    pergunta: 'Qual é o principal fator que influencia o sabor do café?  ',
+    alternativas: [
+      {
+        texto: 'Torra dos grãos',
+        valor: false,
+      },
+      {
+        texto: 'Origem dos grãos',
+        valor: false,
+      },
+      {
+        texto: 'Método de preparo',
+        valor: true,
+      },
+    ],
+  },
+  {
+    tema: 'Qualidade',
+    pergunta: 'Qual é o processo utilizado para retirar a cafeína do café?  ',
+    alternativas: [
+      {
+        texto: 'Descafeinação',
+        valor: true,
+      },
+      {
+        texto: 'Despolpamento',
+        valor: false,
+      },
+      {
+        texto: 'Fermentação',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Qualidade',
+    pergunta: 'Qual é o principal método de preparo de café no Brasil?  ',
+    alternativas: [
+      {
+        texto: 'Café coado',
+        valor: true,
+      },
+      {
+        texto: 'Café expresso',
+        valor: false,
+      },
+      {
+        texto: 'Café de filtro',
+        valor: false,
+      },
+    ],
+  },
+  //convert the rest of the questions to this format
+  {
+    tema: 'Qualidade',
+    pergunta: 'Qual é a classificação do café que possui zero defeitos?  ',
+    alternativas: [
+      {
+        texto: 'Café especial',
+        valor: true,
+      },
+      {
+        texto: 'Café gourmet',
+        valor: false,
+      },
+      {
+        texto: 'Café tradicional',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Qualidade',
     pergunta:
-      'Qual é a média de consumo de leite por pessoa no Brasil por dia?',
+      'Qual é a temperatura ideal da água para continuar com o processo de preparo do café espresso?  ',
     alternativas: [
       {
-        texto: '500 ml',
+        texto: '88°C - 92°C',
         valor: true,
       },
       {
-        texto: '1 litro',
+        texto: '70°C - 75°C',
         valor: false,
       },
       {
-        texto: '1,5 litro',
+        texto: '100°C',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Consumo',
-    pergunta: 'Qual é a porcentagem de lactose presente no leite?',
+    tema: 'Qualidade',
+    pergunta: 'Qual é o termo utilizado para descrever o aroma do café?  ',
     alternativas: [
       {
-        texto: 'Cerca de 4,7%',
+        texto: 'Fragrância',
         valor: true,
       },
       {
-        texto: 'Cerca de 1,5%',
+        texto: 'Corpo',
         valor: false,
       },
       {
-        texto: 'Cerca de 8,0%',
+        texto: 'Acidez',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Consumo',
-    pergunta: 'Qual é o país que mais produz leite no mundo?',
+    tema: 'Qualidade',
+    pergunta:
+      'Qual é a média de xícaras de café consumidas por dia pelos brasileiros?  ',
     alternativas: [
       {
-        texto: 'Índia',
+        texto: '3 xícaras',
         valor: true,
       },
       {
-        texto: 'Estados Unidos',
+        texto: '1 xícara',
         valor: false,
+      },
+      {
+        texto: '5 xícaras',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Curiosidades',
+    pergunta: 'Qual é a origem do café?  ',
+    alternativas: [
+      {
+        texto: 'Etiópia',
+        valor: true,
       },
       {
         texto: 'Brasil',
         valor: false,
       },
-    ],
-  },
-  {
-    tema: 'Consumo',
-    pergunta: 'Qual é o mês em que se comemora o Dia Mundial do Leite?',
-    alternativas: [
       {
-        texto: 'Maio',
-        valor: true,
-      },
-      {
-        texto: 'Junho',
-        valor: false,
-      },
-      {
-        texto: 'Julho',
+        texto: 'Colômbia',
         valor: false,
       },
     ],
   },
+  //convert the rest of the questions to this format
   {
-    tema: 'Consumo',
-    pergunta: 'Qual é o período de lactação médio de uma vaca leiteira?',
+    tema: 'Curiosidades',
+    pergunta: 'Qual é a maior feira de café do Brasil?  ',
     alternativas: [
       {
-        texto: '305 dias',
+        texto: 'Semana Internacional do Café',
         valor: true,
       },
       {
-        texto: '325 dias',
+        texto: 'ExpoCafé',
         valor: false,
       },
       {
-        texto: '345 dias',
+        texto: 'Feira Nacional do Café',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Consumo',
-    pergunta: 'Qual é o tipo de embalagem mais comum para o leite longa vida?',
+    tema: 'Curiosidades',
+    pergunta:
+      'Qual é a porcentagem média de cafés especiais produzidos no Brasil?  ',
     alternativas: [
       {
-        texto: 'Caixa Tetra Pak',
+        texto: 'Cerca de 10%',
         valor: true,
       },
       {
-        texto: 'Garrafa de plástico',
+        texto: 'Cerca de 50%',
         valor: false,
       },
       {
-        texto: 'Sacos plásticos',
+        texto: 'Cerca de 80%',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Consumo',
-    pergunta: 'Qual é o principal destino do leite produzido no Brasil?',
+    tema: 'Curiosidades',
+    pergunta: 'Qual é o período de vida útil do café torrado e moído?  ',
     alternativas: [
       {
-        texto: 'Mercado interno',
+        texto: '6 meses',
         valor: true,
       },
       {
-        texto: 'Exportação',
+        texto: '6 anos',
         valor: false,
       },
       {
-        texto: 'Indústria de queijos',
+        texto: '1 ano',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Consumo',
-    pergunta: 'Qual é o processo utilizado para separar o creme do leite?',
+    tema: 'Curiosidades',
+    pergunta:
+      'Qual é a altitude ideal para o cultivo de café de alta qualidade?  ',
     alternativas: [
       {
-        texto: 'Centrifugação',
+        texto: 'Entre 800 e 1.800 metros acima do nível do mar',
         valor: true,
       },
       {
-        texto: 'Coagulação',
+        texto: 'Entre 100 e 500 metros acima do nível do mar',
         valor: false,
       },
       {
-        texto: 'Batedura',
+        texto: 'Entre 2.000 e 3.000 metros acima do nível do mar',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Consumo',
-    pergunta: 'Qual é a temperatura de pasteurização do leite?',
+    tema: 'Curiosidades',
+    pergunta:
+      'Qual é a principal variedade de café cultivada na região do Cerrado no Brasil?  ',
     alternativas: [
       {
-        texto: '72°C por 15 segundos',
+        texto: 'Catuaí',
         valor: true,
       },
       {
-        texto: '100°C por 1 minuto',
+        texto: 'Bourbon',
         valor: false,
       },
       {
-        texto: '60°C por 30 minutos',
+        texto: 'Mundo Novo',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Curiosidades',
+    pergunta:
+      'Qual é o processo utilizado para obter grãos de café despolpados?  ',
+    alternativas: [
+      {
+        texto: 'Via úmida',
+        valor: true,
+      },
+      {
+        texto: 'Via seca',
+        valor: false,
+      },
+      {
+        texto: 'Via fermentação',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Curiosidades',
+    pergunta:
+      'Qual é o tipo de café que passa por um processo de envelhecimento?  ',
+    alternativas: [
+      {
+        texto: 'Café guarda',
+        valor: true,
+      },
+      {
+        texto: 'Café raro',
+        valor: false,
+      },
+      {
+        texto: 'Café envelhecido',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Curiosidades',
+    pergunta: 'Qual é o tipo de café mais caro do mundo?  ',
+    alternativas: [
+      {
+        texto: 'Kopi Luwak',
+        valor: true,
+      },
+      {
+        texto: 'Blue Mountain',
+        valor: false,
+      },
+      {
+        texto: 'Black Ivory',
+        valor: false,
+      },
+    ],
+  },
+  {
+    tema: 'Curiosidades',
+    pergunta: 'Qual é o maior evento relacionado ao café do mundo?  ',
+    alternativas: [
+      {
+        texto: 'World of Coffee',
+        valor: true,
+      },
+      {
+        texto: 'SCA Expo',
+        valor: false,
+      },
+      {
+        texto: 'International Coffee Festival',
         valor: false,
       },
     ],

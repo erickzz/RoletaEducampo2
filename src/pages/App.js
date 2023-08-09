@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 const App = () => {
   const navigate = useNavigate();
 
-  const segments = ['Produção', 'Nutrição', 'Consumo'];
+  const segments = ['Produção', 'Qualidade', 'Curiosidades'];
   const segColors = ['#055bb9', '#5c7b2d', '#04939b'];
   const onFinished = (winner) => {
     //console.log(winner);
@@ -30,7 +30,7 @@ const App = () => {
   return (
     <>
       <div className="main_text">
-        <p>Quiz Leite</p>
+        <p>Quiz Café</p>
       </div>
 
       <img className="icone-click" src={ClickIcon} alt="Ícone de Clique" />
