@@ -9,12 +9,17 @@ export default function PaginaPerguntas() {
 
   let corTema = '';
 
+  let temaCompleto = '';
+
   if (tema === 'Produção') {
     corTema = '#055bb9';
+    temaCompleto = 'Produção de leite e indústria';
   } else if (tema === 'Nutrição') {
     corTema = '#5c7b2d';
+    temaCompleto = 'Nutrição e qualidade do leite';
   } else {
     corTema = '#04939b';
+    temaCompleto = 'Consumo e curiosidades';
   }
 
   /* if (botaoVoltar.style.backgroundColor === '#fff') {
@@ -43,7 +48,7 @@ export default function PaginaPerguntas() {
       <div className="pergunta" style={{ backgroundColor: corTema }}>
         <div className="infoPergunta">
           <img src={MarcaSebraeBranca} alt="L=Logo Sebrea Branca" />
-          <p>Tema: {tema}</p>
+          <p>Tema: {temaCompleto}</p>
         </div>
         <p className="texto-pergunta">{perguntaSelecionada.pergunta}</p>
         <div className="botao-voltar">

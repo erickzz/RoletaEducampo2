@@ -1,6 +1,6 @@
 export const Perguntas = [
   {
-    tema: 'Produção de leite e indústria',
+    tema: 'Produção',
     pergunta: 'Qual é o principal estado produtor de leite no Brasil?',
     alternativas: [
       {
@@ -18,7 +18,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Produção de leite e indústria',
+    tema: 'Produção',
     pergunta: 'Qual é a principal raça de vaca leiteira no Brasil?',
     alternativas: [
       {
@@ -36,7 +36,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Produção de leite e indústria',
+    tema: 'Produção',
     pergunta:
       'Qual é o órgão responsável pela regulamentação da produção de leite no Brasil?',
     alternativas: [
@@ -55,7 +55,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Produção de leite e indústria',
+    tema: 'Produção',
     pergunta: 'Qual é o país que mais importa leite do Brasil?',
     alternativas: [
       {
@@ -73,7 +73,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Produção de leite e indústria',
+    tema: 'Produção',
     pergunta: 'Qual é o prazo de validade médio do leite pasteurizado?',
     alternativas: [
       {
@@ -91,7 +91,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Produção de leite e indústria',
+    tema: 'Produção',
     pergunta: 'Qual é a maior cooperativa de laticínios do Brasil?',
     alternativas: [
       {
@@ -109,7 +109,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Produção de leite e indústria',
+    tema: 'Produção',
     pergunta: 'Qual é a porcentagem média de água no leite?',
     alternativas: [
       {
@@ -127,7 +127,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Produção de leite e indústria',
+    tema: 'Produção',
     pergunta:
       'Qual é o processo utilizado para prolongar a vida útil do leite através do aquecimento?',
     alternativas: [
@@ -146,7 +146,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Produção de leite e indústria',
+    tema: 'Produção',
     pergunta: 'Qual é a temperatura ideal de armazenamento do leite?',
     alternativas: [
       {
@@ -164,7 +164,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Produção de leite e indústria',
+    tema: 'Produção',
     pergunta: 'Qual é o período de gestação de uma vaca leiteira?',
     alternativas: [
       {
@@ -182,7 +182,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Nutrição e qualidade do leite',
+    tema: 'Nutrição',
     pergunta: 'Qual é a porcentagem média de gordura no leite integral?',
     alternativas: [
       {
@@ -200,7 +200,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Nutrição e qualidade do leite',
+    tema: 'Nutrição',
     pergunta:
       'Qual é a técnica utilizada para remover a gordura do leite e produzir leite desnatado?',
     alternativas: [
@@ -219,7 +219,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Nutrição e qualidade do leite',
+    tema: 'Nutrição',
     pergunta: 'Qual é a principal fonte de proteína no leite?',
     alternativas: [
       {
@@ -237,7 +237,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Nutrição e qualidade do leite',
+    tema: 'Nutrição',
     pergunta: 'Qual é o efeito da alimentação do gado na qualidade do leite?',
     alternativas: [
       {
@@ -255,7 +255,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Nutrição e qualidade do leite',
+    tema: 'Nutrição',
     pergunta: 'Qual é a média de litros de leite produzidos por vaca por dia?',
     alternativas: [
       {
@@ -273,7 +273,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Nutrição e qualidade do leite',
+    tema: 'Nutrição',
     pergunta: 'Qual é a quantidade média de gordura no leite desnatado?',
     alternativas: [
       {
@@ -291,7 +291,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Nutrição e qualidade do leite',
+    tema: 'Nutrição',
     pergunta: 'Qual é o teor de proteína presente no leite?',
     alternativas: [
       {
@@ -309,7 +309,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Nutrição e qualidade do leite',
+    tema: 'Nutrição',
     pergunta:
       'Qual é o processo utilizado para eliminar bactérias no leite e aumentar sua vida útil?',
     alternativas: [
@@ -328,7 +328,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Nutrição e qualidade do leite',
+    tema: 'Nutrição',
     pergunta:
       'Qual é o termo utilizado para se referir à adição de vitaminas e minerais no leite?',
     alternativas: [
@@ -347,7 +347,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Nutrição e qualidade do leite',
+    tema: 'Nutrição',
     pergunta: 'Qual é a principal função da pasteurização do leite?',
     alternativas: [
       {
@@ -365,7 +365,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Consumo e curiosidades',
+    tema: 'Consumo',
     pergunta: 'Qual é o país que mais consome leite per capita no mundo?',
     alternativas: [
       {
@@ -383,7 +383,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Consumo e curiosidades',
+    tema: 'Consumo',
     pergunta:
       'Qual é a média de consumo de leite por pessoa no Brasil por dia?',
     alternativas: [
@@ -402,7 +402,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Consumo e curiosidades',
+    tema: 'Consumo',
     pergunta: 'Qual é a porcentagem de lactose presente no leite?',
     alternativas: [
       {
@@ -420,7 +420,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Consumo e curiosidades',
+    tema: 'Consumo',
     pergunta: 'Qual é o país que mais produz leite no mundo?',
     alternativas: [
       {
@@ -438,7 +438,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Consumo e curiosidades',
+    tema: 'Consumo',
     pergunta: 'Qual é o mês em que se comemora o Dia Mundial do Leite?',
     alternativas: [
       {
@@ -456,7 +456,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Consumo e curiosidades',
+    tema: 'Consumo',
     pergunta: 'Qual é o período de lactação médio de uma vaca leiteira?',
     alternativas: [
       {
@@ -474,7 +474,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Consumo e curiosidades',
+    tema: 'Consumo',
     pergunta: 'Qual é o tipo de embalagem mais comum para o leite longa vida?',
     alternativas: [
       {
@@ -492,7 +492,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Consumo e curiosidades',
+    tema: 'Consumo',
     pergunta: 'Qual é o principal destino do leite produzido no Brasil?',
     alternativas: [
       {
@@ -510,7 +510,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Consumo e curiosidades',
+    tema: 'Consumo',
     pergunta: 'Qual é o processo utilizado para separar o creme do leite?',
     alternativas: [
       {
@@ -528,7 +528,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'Consumo e curiosidades',
+    tema: 'Consumo',
     pergunta: 'Qual é a temperatura de pasteurização do leite?',
     alternativas: [
       {
