@@ -163,7 +163,7 @@ const WheelComponent = ({
 
     // Draw a center circle
     ctx.beginPath();
-    ctx.arc(centerX, centerY, responsive ? 20 : 50, 0, PI2, false);
+    ctx.arc(centerX, centerY, responsive ? 10 : 50, 0, PI2, false);
     ctx.closePath();
     ctx.fillStyle = primaryColor;
     ctx.lineWidth = 10;
